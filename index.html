@@ -19,17 +19,19 @@
       <div class="section-1">
         <h4 class="title">devfinder</h4>
         <button class="btn-mode">
-          LIGHT <img width="20" src="./image/sun.png" alt="" />
+          LIGHT <img width="20" src="./images/sun.png" alt="" />
         </button>
       </div>
       <!-- Buscador -->
       <div class="search-container">
         <div class="input-container">
-          <img width="15" src="./image/search.png" alt="" />
+          <img width="15" src="./images/search.png" alt="" />
           <input
             class="input-search"
             type="text"
-            placeholder="Search GitHub username..." autocomplete="off" id="usergithub"
+            placeholder="Search GitHub username..."
+            autocomplete="off"
+            id="usergithub"
           />
         </div>
         <div>
@@ -37,66 +39,9 @@
         </div>
       </div>
       <!-- Seccion que muestra la informacion -->
-      <div class="information-container" id="container">
-        <!-- Imagen de perfil -->
-        <div class="image-container" id="imagen">
-          <img width="100" src="https://avatars.githubusercontent.com/u/583231?v=4" alt="" />
-        </div>
-        <!-- Description del perfil -->
-        <div class="description-container">
-          <!-- Nombre de usuario y año de union -->
-          <div class="user-date-container" >
-            <h2 id="name">The Octocat</h2>
-            <p id="created-at">Joined 25 Jun 2011</p>
-          </div>
-          <!-- Nombre de usuario y la bio -->
-          <div class="user-bio-container">
-            <p id="login">@octocat</p>
-            <p id="bio">This profile has no bio</p>
-          </div>
-          <!-- Card con los repos, followes, following -->
-          <div class="card-information">
-            <div>
-              <h5>Repos</h5>
-              <h2 id="public_repos">8</h2>
-            </div>
-            <div>
-              <h5>Followers</h5>
-              <h2 id="followers">3938</h2>
-            </div>
-            <div>
-              <h5>Following</h5>
-              <h2 id="following">9</h2>
-            </div>
-          </div>
-          <!-- Info de ubi, twitter, link, username -->
-          <div class="info-container">
-            <div>
-              <p id="location">
-                <img width="15" src="./image/pin.png" alt="" />&nbsp;
-                San Francisco
-              </p>
-              <p id="blog">
-                <img width="15" src="./image/link.png" alt="" />&nbsp;
-                https://github.blog
-              </p>
-            </div>
-            <div>
-              <p id="twitter_username">
-                <img width="15" src="./image/twitter.png" alt="" />&nbsp;
-                Not Available
-              </p>
-
-              <p id="company">
-                <img width="15" src="./image/hotel.png" alt=""/>&nbsp;
-                @github
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="information-container" id="container"></div>
     </div>
-    
+
     <script src="./app.js"></script>
   </body>
 </html>
